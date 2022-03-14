@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const LocationInfo = ({ apiData }) => {
   console.log(apiData.residents?.length);

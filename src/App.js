@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import SearchBox from "./Components/SearchBox";
 import LocationInfo from "./Components/LocationInfo";
-import ResidentInfo from "./Components/ResidentInfo";
+
 import ResidentList from "./Components/ResidentList";
 
 function App() {

@@ -12,7 +12,7 @@ const ResidentInfo = ({ residentUrl }) => {
 
   return (
     <div className="resident-card">
-      <img src={residentInfo.image} />
+      <img src={residentInfo.image} alt="resident picture" />
       <div className="status">
         <div className={residentInfo.status}></div>
         <p>{residentInfo.status?.toUpperCase()}</p>
